@@ -1,7 +1,8 @@
+/* CSS remains the same as provided previously */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212; /* Черный фон */
-    color: #fff; /* Белый текст */
+    background-color: #121212;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    background-color: #1f1f1f; /* Темный фон */
+    background-color: #1f1f1f;
     color: #fff;
 }
 
@@ -28,10 +29,10 @@ header div {
 header button {
     padding: 5px 10px;
     font-size: 14px;
-    cursor: pointer;
     background-color: #333;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 header button:hover {
@@ -48,33 +49,33 @@ header button:hover {
 .level {
     display: flex;
     align-items: center;
-    background-color: #1f1f1f; /* Темный фон */
+    background-color: #1f1f1f;
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 1200px;
+    max-width: 500px;
     cursor: move;
 }
 
 .level img {
     border-radius: 8px;
     margin-right: 10px;
-    width: 180px;
-    height: 90px;
+    width: 100px;
+    height: 50px;
     object-fit: cover;
 }
 
 .level-info h2 {
     margin: 0;
-    font-size: 24px;
-    color: #fff; /* Белый текст */
+    font-size: 18px;
+    color: #fff;
 }
 
 .level-info p {
     margin: 5px 0 0;
-    color: #bbb; /* Светло-серый текст */
+    color: #bbb;
 }
 
 .popup-form {
@@ -83,7 +84,7 @@ header button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #1f1f1f; /* Темный фон */
+    background-color: #1f1f1f;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -97,14 +98,14 @@ header button:hover {
 
 .popup-form label {
     margin-top: 10px;
-    color: #fff; /* Белый текст */
+    color: #fff;
 }
 
 .popup-form input {
     padding: 8px;
     margin-top: 5px;
-    background-color: #333; /* Темный фон */
-    color: #fff; /* Белый текст */
+    background-color: #333;
+    color: #fff;
     border: none;
     border-radius: 4px;
 }
